@@ -1,0 +1,24 @@
+body {
+    padding: 20px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.clase1 {
+    background-color: #80ed99;
+    color: #22577a;
+    text-decoration: line-through;
+    
+    
+}
+
+.clase2 {
+    background-color: #bc4749;
+    color: #f2e8cf;
+}
+
+span {
+    font-size: 1.2rem;
+}
