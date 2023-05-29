@@ -22,3 +22,66 @@ button {
 span {
     font-size: 1.2rem;
 }
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prueba2 {
+    width: 400px;
+    
+}
+
+.barra {
+    background-color: #f1faee ;
+}
+
+.carousel {
+    width: 50rem;
+    height: 50rem;
+    
+}
+
+.cuadro {
+    background-color: #1d3557;
+    color: #f1faee;
+    font-size: 1.5rem;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.cuadro h5{ color:#e63946; font-size: 1.4rem;}
+
+
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  h3 {
+    color: #ee9b00;
+  }
+  
+  h2 {
+    color: #94d2bd;
+    font-size: 5rem;
+  }
+  
+  .resultados {
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 50%; /* Ancho deseado de la caja */
+    margin: 0 auto; /* Para centrar horizontalmente */
+  }
+  
+  .titulop {
+    color: #edf6f9;
+  }
+  .datos {
+    color: #ffd166;
+    font-size: 2rem;
+  }

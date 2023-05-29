@@ -4,6 +4,7 @@ import { LoadingQuote } from "../Components/LoadingQuote";
 import { Quote } from "../Components/Quote";
 import { useState } from "react";
 import { Memorize } from "../06-memos/Memorize";
+import React from "react";
 
 
 

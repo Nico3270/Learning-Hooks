@@ -1,5 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import { HooksApp } from './HooksApp.jsx'
 import { CounterApp } from './01-useState/CounterApp.jsx'
 import { CounterAppCustom } from './01-useState/CounterWithCustomHook.jsx'
@@ -16,22 +21,12 @@ import { CallBackHook } from './06-memos/CallbackHook.jsx'
 import { Padre } from './07-tarea-memo/Padre.jsx'
 import "./08-useReducer/intro-reducer.js"
 import { TodoApp } from './08-useReducer/TodoApp.jsx'
+import { ContadorReducer } from './09-ContadorReducer/componentes/ContadorReducer.jsx'
+import { MainApp } from './010-useContext/MainApp.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <HooksApp />
-    <CounterApp />
-    <CounterHook initialValue={20} />
-    <CounterAppCustom inicio="35" /> */}
-    {/* <SimpleForm /> */}
-    {/* <MultipleConstHook />
-    <FocusScreen /> */}
-    {/* <Layout /> */}
-
+  
+  <BrowserRouter>
+    <MainApp />
     <hr></hr>
-    {/* <MemoHook initialValue = {500} /> */}
-    {/* <CallBackHook initialValue={50} /> */}
-    {/* <Padre /> */}
-    <TodoApp />
-  </React.StrictMode>,
+  </BrowserRouter>
 )
- 
